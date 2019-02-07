@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour {
+
+    public Image hpImage;
 
     float currentHP = 5;
     float maxHP = 5;
@@ -83,6 +85,7 @@ public class PlayerController : MonoBehaviour {
         }
         if(col.gameObject.tag == "Doragon"){
             currentHP -= 1;
+            hpImage.fillAmount = currentHP / maxHP;
         }
     }
 }
