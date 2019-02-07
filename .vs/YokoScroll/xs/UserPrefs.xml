@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{2A4C13BE-E2B8-37B6-35CE-A194622AC2A5}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PlayerController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/DoragonController.cs">
     <Files>
-      <File FileName="Assets/PlayerController.cs" Line="36" Column="12" />
+      <File FileName="Assets/PlayerController.cs" Line="85" Column="28" />
+      <File FileName="Assets/DoragonController.cs" Line="6" Column="21" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

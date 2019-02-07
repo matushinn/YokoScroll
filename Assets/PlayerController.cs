@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
 
+    float currentHP = 5;
+    float maxHP = 5;
+
     float speed = 5.0f;
     float jumpPower = 5.0f;
     int jumpCount;
@@ -77,6 +80,9 @@ public class PlayerController : MonoBehaviour {
             Destroy(col.gameObject);
             audioSource.clip = pickUpSound;
             audioSource.Play();
+        }
+        if(col.gameObject.tag == "Doragon"){
+            currentHP -= 1;
         }
     }
 }
