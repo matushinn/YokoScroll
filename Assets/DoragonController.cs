@@ -4,10 +4,7 @@ using UnityEngine;
 
 
 public class DoragonController : MonoBehaviour {
-
-
     float speed = 5.0f;
-   
 
     Animator animator;
 	// Use this for initialization
@@ -22,10 +19,7 @@ public class DoragonController : MonoBehaviour {
         Animation();
     }
     void Move(){
-
             this.transform.position += this.transform.forward * speed * Time.deltaTime;
-
-
     }
 
     void Animation(){
